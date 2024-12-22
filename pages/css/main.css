@@ -1,0 +1,139 @@
+.main-nav_bar--container {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+    justify-content: center;
+    margin-top: 94px;
+    margin-bottom: 34px;
+  }
+  
+  .main-nav_bar--list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .main-nav_bar--button {
+    width: fit-content;
+    height: 38px;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    border: 0;
+    background-color: #f5f4fa;
+    cursor: pointer;
+    display: inline-block;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .main-nav_bar--button-span {
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+  
+  .main-nav_bar--list li:not(:last-child) {
+    margin-right: 8px;
+  }
+  .main_content--container {
+    width: 100%;
+    max-width: 1170px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 94px;
+  }
+  .main_content--card {
+    height: 404px;
+    overflow: hidden;
+    border: 1px solid #eeeeee;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s ease-in-out;
+    position: relative;
+  }
+  
+  .main_content--card:hover .main_content--card--overlay {
+    transform: translateY(0);
+    top: 0;
+    height: 75%;
+  }
+  
+  .main_content--card--overlay {
+    background-color: #2196f3e5;
+    width: 370px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: 0.2s ease-in;
+    transform: translateY(100%);
+  }
+  
+  .main_content--card--overlay--text {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    max-width: 322px;
+    margin-top: 55px;
+    margin-left: 24px;
+    color: #ffffff;
+  }
+  
+  .main_content--card:hover {
+    transition: 0.2s ease-in-out;
+    box-shadow: 1px 3px 6px 0px #0000001f;
+  }
+  
+  .main_content--first_line,
+  .main_content--second_line,
+  .main_content--third-line {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .main_content--card:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .main_content-card--title {
+    margin-top: 20px;
+    margin-bottom: 4px;
+    margin-left: 24px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    text-align: left;
+  }
+  
+  .main_content-card--text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 24px;
+    color: #757575;
+  }
+  
+  .main-nav_bar--button:hover {
+    background-color: #2196f3;
+    color: #ffffff;
+    transition: ease-in-out 0.3s;
+  }
+  

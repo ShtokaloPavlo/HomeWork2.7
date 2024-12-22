@@ -1,0 +1,347 @@
+.main_first--section {
+  content: "";
+  background-image: url("../img/first_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_first--container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_first--title {
+  max-width: 696px;
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 200px;
+}
+
+.main_first--btn {
+  margin-top: 30px;
+  width: 216px;
+  height: 50px;
+  margin-bottom: 200px;
+  border: 0;
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2196f3;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px #00000026;
+}
+
+.main_first--btn:hover {
+  animation: animateBtn 1.5s linear infinite;
+}
+
+.main_second--section {
+  margin-top: 94px;
+}
+
+.main_second--container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_second--title {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.main_second--text {
+  font-family: Roboto;
+  max-width: 270px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.main_third--section {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+.main_third--container {
+  width: 100%;
+  max-width: 1170px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.main_third--title {
+  margin-bottom: 50px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.main_third--images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_fourth--section {
+  padding-bottom: 124px;
+  background-color: #f5f4fa;
+  padding-top: 94px;
+}
+
+.main_fourth--card--text {
+  font-family: Roboto;
+  max-width: 270px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.main_fourth--card--socials {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+
+.main_fourth--card--socials svg:hover {
+  cursor: pointer;
+}
+
+.main_fourth--container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.main_fourth--card--title {
+  font-family: Roboto;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.main_fourth--title {
+  margin-bottom: 50px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.main_fourth--cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_fourth--card {
+  background-color: white;
+  box-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024,
+    0px 1px 3px 0px #0000001f;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.main_fourth--card--socials svg:hover path {
+  fill: #2196f3;
+  transition: 0.5s ease-in-out;
+}
+
+.main_fourth--card--socials svg path,
+.main_fourth--card--socials svg g path {
+  transition: 0.3s ease-in-out;
+}
+
+.main_fourth--card--socials svg:hover g path {
+  fill: #ffffff;
+  transition: 0.5s ease-in-out;
+}
+
+.main_fourth--card--socials svg {
+  transition: transform 1s ease-in-out;
+}
+
+.main_fourth--card--socials svg:hover {
+  transform: rotate(360deg);
+  cursor: pointer;
+}
+
+.main_second--card--box {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
+
+.main_second--card {
+  cursor: pointer;
+}
+
+#card_box-first,
+#card_box-second,
+#card_box-third,
+#card_box-fourth {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card_box-first:before {
+  content: "";
+  background-image: url("../img/antenna 1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  display: block;
+}
+
+.main_second--card:hover #card_box-first,
+.main_second--card:hover #card_box-second,
+.main_second--card:hover #card_box-third,
+.main_second--card:hover #card_box-fourth {
+  animation: animateWhyUs 3s ease-in-out;
+}
+
+#card_box-second:before {
+  content: "";
+  background-image: url("../img/clock 1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+  display: block;
+}
+
+#card_box-third:before {
+  content: "";
+  background-image: url("../img/diagram 1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+  display: block;
+}
+
+#card_box-fourth:before {
+  content: "";
+  background-image: url("../img/astronaut 1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+  display: block;
+}
+
+.main_fifth--container {
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+}
+
+.main_fifth--section {
+  margin-top: 94px;
+}
+
+.main_fifth--title {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.main_fifth--cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 94px;
+}
+
+.main_fifth--card {
+  border: 2px solid #afb1b8;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+  padding: 16px 32px;
+  transition: 0.3s ease-in-out;
+}
+
+.main_fifth--card:hover {
+  cursor: pointer;
+  border-color: #2196f3;
+  transition: 0.3s ease-in-out;
+}
+
+.main_fifth--card:hover svg path {
+  fill: #2196f3;
+  transition: 0.3s ease-in-out;
+}
+
+.main_fifth--card svg path {
+  transition: 0.3s ease-in-out;
+}
+
+.main_third--img--text {
+  position: absolute;
+  width: 100%;
+  top: 224px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  padding-bottom: 27px;
+  padding-top: 27px;
+  background-color: #2f303acc;
+  text-transform: uppercase;
+}
+
+.main_third--img {
+  position: relative;
+}
